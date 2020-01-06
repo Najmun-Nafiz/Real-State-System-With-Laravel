@@ -1,0 +1,579 @@
+/* Responsive Styles 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media only screen and (max-width: 991px) {
+    .logo {
+        margin-bottom: 15px;
+    }
+
+    .navbar-right {
+        font-size: 13px;
+        padding: 21px 5px;
+    }
+
+    .bottom-intro {
+        height: 150px;
+    }
+
+    .duplex {
+        background: rgba(0, 0, 0, 0.9);
+        padding: 20px 40px;
+    }
+
+    .about {
+        padding-bottom: 50px;
+    }
+
+    .drawing-room, .dining-room, .bed-room, .kitchen-room {
+        margin-bottom: 30px;
+    }
+
+    .contract-left {
+        padding: 0;
+        text-align: center;
+    }
+
+    .contract-left input, .contract-left textarea {
+        width: 100%;
+    }
+
+    .contract-section {
+        padding: 30px 0;
+    }
+
+    .call-us {
+        padding-top: 50px;
+    }
+
+    .sell-contact {
+        padding-top: 60px;
+    }
+
+    .sell-contact span {
+        display: block;
+    }
+
+    .sell-contact a {
+        display: inline-block;
+        margin-top: 15px;
+    }
+
+    .subscribe .subscribe-email {
+        margin-left: 15px;
+    }
+
+    .subscribe input[type="text"] {
+        margin-bottom: 15px;
+    }
+
+    .subscribe input[type="submit"] {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .subscribe {
+        text-align: center;
+    }
+
+    .about-feature {
+        text-align: center;
+    }
+
+    .document-title p, .pdfone, .pdftwo {
+        text-align: center;
+    }
+	
+	.footer {
+		background-position:center;
+		background-size:cover;
+	}
+	
+	.intro-rstate-m .property-slider .carousel-inner .item figure figcaption .slider-details{
+		display: none;
+	}
+	 .intro-rstate-m {
+	  min-height: 134px !important;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.logo {
+	  text-align: center;
+	}
+    .header-call, .header-place {
+        text-align:center;
+    }
+	.header-call p, .header-place p{
+		display:inline-block;
+    }
+	.header-social {
+		padding-top: 25px;
+	}
+    .header-call, .header-place {
+        margin-top: 15px;
+    }
+
+    .section-desc {
+        width: 100%;
+    }
+
+    .controls button {
+        margin-bottom: 5px;
+    }
+
+    .header-call::after, .header-place::after {
+        content: none;
+    }
+
+    .header-call p, .header-place p {
+        margin: 0;
+    }
+
+    .header-social {
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .navbar-right {
+        display: block;
+        margin: 0 auto 10px;
+        padding: 15px;
+        text-align: center;
+        width: 250px;
+    }
+
+    .duplex {
+        padding: 15px;
+    }
+
+    .bottom-intro {
+        height: 150px;
+    }
+
+    .property img {
+        width: 100%;
+    }
+
+    .drawing-room, .dining-room, .bed-room, .kitchen-room {
+        margin: 0 auto 15px;
+        width: 80%;
+    }
+
+    .location .club {
+        margin-bottom: 15px;
+    }
+
+    .latest-property .property img {
+        width: auto;
+    }
+
+    .contract-left input, .contract-left textarea {
+        width: 100%;
+    }
+
+    .contract-right {
+        margin-right: 0;
+        padding-top: 0;
+        text-align: left;
+    }
+
+    .contract-right span {
+        margin-top: 10px;
+    }
+
+    .contract-right ul {
+        padding: 0;
+    }
+
+    .call-us {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .sell-contact {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .subscribe .subscribe-email {
+        margin: 10px 0;
+        padding-left: 15px;
+    }
+
+    .subscribe input[type="text"] {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .subscribe input[type="submit"] {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    .subscribe {
+        margin-top: 0;
+    }
+
+    .footer-below .copy-right p {
+        text-align: center;
+    }
+
+    .footer-below .payment {
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header-call p, .header-place p {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+.intro-rstate-m .property-slider .carousel-inner .item figure figcaption .slider-details{
+	  display: none;
+	}
+	 .intro-rstate-m {
+	  min-height: 134px !important;
+	}
+/* Real Estate Multi */
+	.intro-rstate-m .property-slider .carousel-inner .item figure figcaption .slider-details p,
+	.intro-rstate-m .property-slider .carousel-inner .item figure figcaption .slider-details ul,
+	.intro-rstate-m .property-slider .carousel-inner .item figure figcaption .slider-details h2{
+		display: none;
+	}
+	.intro-rstate-m .property-slider .carousel-inner .item figure figcaption .slider-details {
+	  width: 100%;
+	}
+	.intro-rstate-m .property-slider .carousel-inner .item figure figcaption{
+		top: 75%;
+	}
+	.intro-rstate-m {
+	  min-height: 400px;
+	}
+	.property-search div.tab-content .tab-pane form .form-group select {
+	  background: transparent url("http://getnajmul.com/") no-repeat scroll 98% center;
+	}
+	.property-search div.tab-content .tab-pane form .form-group select:last-child {
+	  margin-bottom: 25px;
+	}
+	.rem-wcu .wcu-right {
+	  height: 400px;
+	}
+	.section-header-rem p {
+	  width: 100%;
+	}
+    .header-call, .header-place {
+        text-align:center;
+    }
+	.header-call p, .header-place p{
+		display:inline-block;
+    }
+	.header-social {
+		padding-top: 25px;
+	}
+	#my-navbar li a, #my-navbar li.active a {
+        padding: 22px 25px !important;
+    }
+
+    .duplex, .bedrooms, .price {
+        display: none;
+    }
+
+    .details {
+        bottom: 0;
+        left: 50%;
+        margin-left: -80px;
+        position: absolute;
+        height: auto;
+    }
+
+    .details a {
+        padding: 10px;
+    }
+
+    .details a:hover {
+        padding: 10px;
+    }
+
+    .logo {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .header-call::after {
+        content: none;
+    }
+
+    .header-place::after {
+        content: none;
+    }
+
+    .header-social {
+        text-align: center;
+    }
+
+    .navbar-right {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 20px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .about-bottom span {
+        margin-bottom: 50px;
+    }
+
+    .about-bottom {
+        padding-bottom: 50px;
+    }
+
+    .property-details {
+        padding-top: 0;
+    }
+
+    .property-details h2 {
+        text-align: center;
+    }
+
+    .property-details ul li {
+        float: none;
+        display: block;
+        margin-right: 0;
+    }
+
+    .property-details p {
+        padding: 0;
+    }
+
+    .nearby-places {
+        padding: 50px 0;
+    }
+
+    .location {
+        margin-bottom: 20px;
+    }
+
+    .latest-property h1 {
+        font-size: 30px;
+    }
+
+    .contract-left {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .contract-left input, .contract-left textarea {
+        width: 100%;
+    }
+
+    .contract-right {
+        text-align: left;
+        margin-right: 0;
+        padding-top: 0;
+    }
+
+    .contract-right span {
+        margin-top: 10px;
+    }
+
+    .contract-right ul {
+        padding-left: 0;
+    }
+
+    .contract-section .contract-left > form {
+        padding: 0 15px;
+    }
+
+    .call-us {
+        padding-top: 0;
+        text-align: center;
+    }
+	
+	.sell-property {
+		min-height: 250px;
+	}
+	
+    .sell-contact {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .sell-contact span {
+        display: block;
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .sell-contact a {
+        display: inline-block;
+        padding: 10px 30px;
+        margin-left: 0;
+    }
+
+    .banner-overlay {
+        padding: 0;
+    }
+
+    .blog {
+        margin: 60px 0 30px 0;
+    }
+
+    .blog-content {
+        padding-left: 0;
+    }
+	
+	.blog-row-one .col-md-6{
+		margin-bottom:50px;
+	}
+	
+	.blog-row-one .col-md-6:last-child{
+		margin-bottom:0;
+	}
+	
+    .blog-pic, .blog-pic2, .blog-pic3, .blog-pic4 {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .blog-content3 {
+        padding-right: 0;
+        padding-bottom: 25px;
+    }
+
+    .blog-content a, .blog-content3 a {
+        margin-left: 0;
+    }
+
+    .blog-content3 a {
+        padding: 8px 22px;
+    }
+
+    .testimonials-title {
+        margin-top: 50px;
+    }
+
+    .testimonials-title h1 {
+        font-size: 30px;
+    }
+
+    .subscribe {
+        padding: 20px 0;
+    }
+
+    .subscribe .subscribe-email {
+        padding-left: 15px;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .subscribe input[type="email"] {
+        width: 100%;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .subscribe input[type="submit"] {
+        padding: 10px 20px;
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+
+    .footer-below .copy-right p {
+        text-align: center;
+    }
+
+    .footer-below .payment {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .header-banner h2 {
+        text-align: center;
+    }
+
+    .header-banner ol.breadcrumb {
+        text-align: center;
+    }
+
+    .contact-box {
+        margin-bottom: 15px;
+    }
+
+    .form-button {
+        text-align: center;
+    }
+
+    .about-ecoreal-content > p {
+        padding: 0 15px;
+    }
+
+    .document-title p, .pdfone, .pdftwo {
+        text-align: center;
+    }
+
+    .who-we-are {
+        padding: 0 0;
+    }
+
+    .who-we-are-content {
+        margin: 0 !important;
+        padding: 20px 20px;
+    }
+
+    .who-we-are-content > h2 {
+        font-size: 30px;
+    }
+
+    .ecoreal-features .col-md-12 > h2 {
+        font-size: 30px;
+    }
+
+    .ecoreal-features .col-md-12 > p {
+        padding: 10px 0;
+    }
+
+    .about-feature {
+        text-align: center;
+    }
+
+    figure.effect-zoe figcaption {
+        padding-top: 75px;
+    }
+
+    .latest-pic1, .latest-pic2, .latest-pic3, .latest-pic4, .latest-pic5, .latest-pic6 {
+        height: 200px;
+    }
+
+    .property-gallery {
+        height: auto;
+    }
+
+    .property-gallery > img {
+        height: auto;
+    }
+
+    .property-agent {
+        left: 0;
+        padding: 30px;
+        position: relative;
+        top: 0;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .property-details-list ul, .property-features ul {
+        columns: 1;
+        -moz-columns: 1;
+        -webkit-columns: 1;
+    }
+	.footer {
+		background-position:center;
+		background-size:cover;
+	}
+}

@@ -1,0 +1,186 @@
+@font-face {
+  font-family: 'mlicons';
+  src:  url('../fonts/mlicons9aee.eot?qst0nc');
+  src:  url('../fonts/mlicons9aee.eot?qst0nc#iefix') format('embedded-opentype'),
+    url('../fonts/mlicons9aee.ttf?qst0nc') format('truetype'),
+    url('../fonts/mlicons9aee.woff?qst0nc') format('woff'),
+    url('../fonts/mlicons9aee.svg?qst0nc#mlicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ml-"], [class*=" ml-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'mlicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ml-host-server:before {
+  content: "\e900";
+}
+.ml-forks:before {
+  content: "\e901";
+}
+.ml-garage:before {
+  content: "\e902";
+}
+.ml-guard:before {
+  content: "\e903";
+}
+.ml-guest:before {
+  content: "\e904";
+}
+.ml-happy-face:before {
+  content: "\e905";
+}
+.ml-host:before {
+  content: "\e906";
+}
+.ml-hotel:before {
+  content: "\e907";
+}
+.ml-house:before {
+  content: "\e908";
+}
+.ml-ideas:before {
+  content: "\e909";
+}
+.ml-light:before {
+  content: "\e90b";
+}
+.ml-lock:before {
+  content: "\e90c";
+}
+.ml-map-marker:before {
+  content: "\e90d";
+}
+.ml-meter:before {
+  content: "\e90e";
+}
+.ml-neighbour:before {
+  content: "\e90f";
+}
+.ml-phone:before {
+  content: "\e910";
+}
+.ml-plane:before {
+  content: "\e912";
+}
+.ml-real-agent:before {
+  content: "\e913";
+}
+.ml-responsive:before {
+  content: "\e915";
+}
+.ml-square-ft:before {
+  content: "\e916";
+}
+.ml-table:before {
+  content: "\e917";
+}
+.ml-tools:before {
+  content: "\e918";
+}
+.ml-tools-o:before {
+  content: "\e919";
+}
+.ml-tourist:before {
+  content: "\e91b";
+}
+.ml-tour-search:before {
+  content: "\e91c";
+}
+.ml-trophy:before {
+  content: "\e91e";
+}
+.ml-unlock:before {
+  content: "\e91f";
+}
+.ml-user:before {
+  content: "\e920";
+}
+.ml-user-light:before {
+  content: "\e921";
+}
+.ml-user-research-o:before {
+  content: "\e922";
+}
+.ml-villa:before {
+  content: "\e924";
+}
+.ml-web:before {
+  content: "\e926";
+}
+.ml-web-globe:before {
+  content: "\e927";
+}
+.ml-724-support:before {
+  content: "\e928";
+}
+.ml-bathtub:before {
+  content: "\e929";
+}
+.ml-beach:before {
+  content: "\e92a";
+}
+.ml-bed:before {
+  content: "\e92b";
+}
+.ml-book-o:before {
+  content: "\e92c";
+}
+.ml-business:before {
+  content: "\e92d";
+}
+.ml-business-hour:before {
+  content: "\e92e";
+}
+.ml-calendar:before {
+  content: "\e92f";
+}
+.ml-chat:before {
+  content: "\e930";
+}
+.ml-check-board:before {
+  content: "\e931";
+}
+.ml-clock:before {
+  content: "\e932";
+}
+.ml-clock-o:before {
+  content: "\e933";
+}
+.ml-cloud:before {
+  content: "\e934";
+}
+.ml-cloud-host:before {
+  content: "\e936";
+}
+.ml-code:before {
+  content: "\e937";
+}
+.ml-code-editor:before {
+  content: "\e938";
+}
+.ml-delivery-o:before {
+  content: "\e939";
+}
+.ml-destination:before {
+  content: "\e93a";
+}
+.ml-face-emo:before {
+  content: "\e93b";
+}
+.ml-fax:before {
+  content: "\e93c";
+}
+
